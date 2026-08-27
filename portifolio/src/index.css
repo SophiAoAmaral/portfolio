@@ -3,6 +3,8 @@
 @theme {
 --color-fundo:#17111b;
 --color-rosa:#e0709f;
+--color-rosa-escuro:#882c52;
+--color-rosa-claro: #f195bc;
 --color-texto:#f1e9ee;
 --color-card:#221926;
 }
@@ -26,6 +28,7 @@ body{
 
  .detail {
   position: relative;
+
   }
 
 .detail::before {
@@ -40,6 +43,19 @@ body{
   box-shadow: 0 0 7px 0px var(--color-rosa);
 }
 
+.bols{
+  position: relative;
+}
+
+.bols::before{
+  content: '';
+  position: absolute;
+  top: 30%;
+  left: -15px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
 .detail-rosa{
   position: relative;
 }
@@ -51,5 +67,19 @@ body{
   width: 17px;
   height: 2px;
   background: var(--color-rosa);
+}
+
+.neon {
+  position: absolute;
+
+  top: 18%;
+  left: 22%;
+
+  width: 420px;
+  height: 220px;
+  background: rgba(224, 112, 159, 0.587);
+  filter: blur(70px);
+  border-radius: 50%;
+  z-index: -1;
 }
 }

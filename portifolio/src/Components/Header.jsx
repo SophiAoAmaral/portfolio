@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Header = () => {
   return (
-    <header className='border-b border-rosa/30'>
+    <header className='border-b border-rosa/30 bg-fundo'>
         <nav className='container flex justify-between items-center py-7'>
             <h1 className='detail relative text-xl font-semibold text-texto'>Sophia Oliveira</h1>
             <ul className='flex items-center gap-5 text-texto/70 *:cursor-pointer *:transition [&>li]:hover:text-rosa'>
