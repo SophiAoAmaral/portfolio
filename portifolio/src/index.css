@@ -6,3 +6,50 @@
 --color-texto:#f1e9ee;
 --color-card:#221926;
 }
+
+body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: var(--color-fundo);
+}
+
+@layer components {
+
+
+   .container {
+    width: 100%;
+    max-width: 1280px;
+    margin-inline: auto;
+    padding-inline: 1.5rem;
+  }
+
+ .detail {
+  position: relative;
+  }
+
+.detail::before {
+  content: '';
+  position: absolute;
+  top: 30%;
+  left: -15px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--color-rosa);
+  box-shadow: 0 0 7px 0px var(--color-rosa);
+}
+
+.detail-rosa{
+  position: relative;
+}
+.detail-rosa::before{
+  content: '';
+  position: absolute;
+  top: 39%;
+  left: -25px;
+  width: 17px;
+  height: 2px;
+  background: var(--color-rosa);
+}
+}
