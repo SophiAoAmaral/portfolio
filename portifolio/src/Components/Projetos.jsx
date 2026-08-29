@@ -2,6 +2,7 @@ const projetos = [
   {
     id: "vertice",
     nome: "Vértice Sports",
+    tipo: 'Full Stack',
     linguagens: ["ReactJs", "TailwindCSS", "MongoDB", "Node.Js"],
     descricao: "E-commerce Full Stack de artigos esportivos com catálogo dinâmico, carrinho e checkout, integrado a uma API REST própria e banco de dados MongoDB.",
     sobre:"A Vértice Sports é um e-commerce de artigos esportivos desenvolvido com o objetivo de construir uma aplicação completa, conectando interface, API e banco de dados.",
@@ -17,8 +18,9 @@ const projetos = [
   {
     id: "aurora",
     nome: "Café Aurora",
-    linguagens: ["React", "Tailwind CSS", "React Router"],
-    descricao:"Landing page responsiva para uma cafeteria fictícia, com cardápio interativo, filtros dinâmicos e sistema de reserva de mesas.",
+    tipo: 'Front End',
+    linguagens: ["ReactJs", "Tailwind CSS", "React Router"],
+    descricao:"Aplicação responsiva para uma cafeteria fictícia. Com cardápio interativo, filtros dinâmicos, menu responsivo e sistema de reserva de mesas, explorando componentização, gerenciamento de estado e criação de interfaces adaptáveis a diferentes dispositivos.",
     sobre:"O Café Aurora é uma aplicação desenvolvida para criar uma experiência moderna e intuitiva para uma cafeteria, combinando apresentação do estabelecimento, cardápio e reserva de mesas.",
     desenvolvimento:"Desenvolvi a aplicação com React e Tailwind CSS, criando componentes reutilizáveis, navegação SPA, menu responsivo, carrossel, cardápio com filtros e um formulário interativo para reservas.",
     desafio:"O principal desafio foi trabalhar diferentes comportamentos dinâmicos na mesma aplicação, controlando filtros, menu mobile, formulário, carrossel e modal de confirmação através dos estados do React.",
@@ -31,8 +33,9 @@ const projetos = [
   {
     id: "mira",
     nome: "Mira Arquitetura",
+    tipo: 'Front End',
     linguagens: ["HTML5", "CSS3", "JavaScript"],
-    descricao:"Landing page institucional para um estúdio de arquitetura, com design minimalista, animações, portfólio de projetos e formulário de contato.",
+    descricao:"Landing page para um estúdio de arquitetura, desenvolvida com foco em design minimalista. Conta com animações durante o scroll, formulário de contato com validação e diferentes seções para apresentar os serviços e a identidade do estúdio.",
     sobre:"A Mira Arquitetura é uma landing page desenvolvida para representar um estúdio de arquitetura residencial, combinando uma identidade visual sofisticada com uma navegação simples e intuitiva.",
     desenvolvimento:"Desenvolvi a aplicação utilizando HTML, CSS e JavaScript puro, criando a estrutura da página, galeria de projetos, animações durante o scroll, carrossel, navegação por seções e formulário com validação.",
     desafio:"O principal desafio foi criar interações e comportamentos dinâmicos sem frameworks, trabalhando diretamente com JavaScript e manipulação do DOM para animações, validações e elementos interativos.",
@@ -46,7 +49,8 @@ const projetos = [
   {
     id: "plump",
     nome: "Plump",
-    linguagens: ["React", "Tailwind CSS", "JavaScript", "React Router", "Vite"],
+    tipo: 'Front End',
+    linguagens: ["ReactJs", "Tailwind CSS", "JavaScript", "React Router", "Vite"],
     descricao:"Landing page para apresentação de um produto de skincare, com interface moderna, responsiva e focada na experiência do usuário.",
     sobre:"Plump é uma aplicação desenvolvida para apresentar um sérum facial, destacando seus ingredientes, benefícios e diferenciais através de uma experiência visual moderna e intuitiva.",
     desenvolvimento:"Desenvolvi a interface com React e Tailwind CSS, criando componentes reutilizáveis, navegação entre páginas, formulário interativo e um layout responsivo seguindo a abordagem Mobile First.",
@@ -61,7 +65,8 @@ const projetos = [
   {
   id: 'nagomi',
   nome: 'Nagomi 和み',
-  linguagens: ['React', 'JavaScript', 'HTML5', 'CSS3'],
+  tipo: 'Front End',
+  linguagens: ['ReactJs', 'JavaScript', 'HTML5', 'CSS3'],
   descricao:'Aplicação web para um restaurante japonês, desenvolvida com foco em uma experiência visual elegante, responsiva e inspirada na cultura japonesa.',
   sobre:'O Nagomi é uma aplicação inspirada na gastronomia japonesa, criada para representar digitalmente a identidade de um restaurante através de uma interface moderna e agradável.',
   desenvolvimento:'Desenvolvi a interface com React, utilizando componentes reutilizáveis, organização modular e CSS para criar animações, transições e um layout adaptado a diferentes dispositivos.',
@@ -75,7 +80,8 @@ const projetos = [
 {
   id: 'filmes',
   nome: 'Buscar Filmes',
-  linguagens: ['React', 'Tailwind CSS', 'JavaScript', 'API'],
+  tipo: 'Front End',
+  linguagens: ['ReactJs', 'Tailwind CSS', 'JavaScript', 'API'],
   descricao: 'Aplicação web para busca e descoberta de filmes, desenvolvida com React e Tailwind CSS a partir do consumo de uma API externa.',
   sobre: 'O Buscar Filmes é uma aplicação criada para explorar dados de filmes de forma dinâmica, permitindo trabalhar com informações vindas de uma API e transformá-las em uma interface visual e organizada.',
   desenvolvimento: 'Desenvolvi a interface com React e Tailwind CSS, realizando o consumo de uma API de filmes e utilizando os dados retornados para montar os conteúdos da aplicação de forma dinâmica.',

@@ -3,6 +3,7 @@ import { Footer } from "./Components/Footer"
 import { Header } from "./Components/Header"
 import { Home } from "./Components/Home"
 import { Projeto } from "./Components/Projeto"
+import { Cards } from "./Components/Cards"
 
 function App() {
   

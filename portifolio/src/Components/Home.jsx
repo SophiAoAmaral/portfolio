@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaGithub } from "react-icons/fa";
 import { Cards } from './Cards';
+import {Link} from 'react-router'
 
 export const Home = () => {
   return (
@@ -12,7 +13,7 @@ export const Home = () => {
                     <h1 className='text-8xl mb-2'>Crio interfaces modernas, responsivas e <span className='text-rosa'>acessíveis.</span></h1>
                     <p className='text-texto/75 my-5'>Estudante de Análise e Desenvolvimento de Sistemas na PUCRS e desenvolvedora Front-End em formação. Transformo interfaces do Figma em experiências reais, responsivas e funcionais, com foco em React, JavaScript e Tailwind CSS. Busco minha primeira oportunidade na área para continuar evoluindo e contribuindo com projetos reais.</p>
                     <div className='flex items-center gap-7 *:cursor-pointer'>
-                        <a href="" className='border border-rosa py-2 px-4 text-rosa rounded-2xl hover:bg-rosa/30 hover:text-texto transition'>Ver Projetos</a>
+                        <Link to='/projetos'>Ver Projetos</Link>
                         <a href='https://github.com/SophiAoAmaral' target='_blank' className='flex items-center gap-2 text-texto/75 border  border-texto/30 py-2 px-4 rounded-2xl hover:bg-rosa/30 transition'>GitHub <FaGithub /></a>
                     </div>
                 </div>
