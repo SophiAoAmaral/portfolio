@@ -32,6 +32,13 @@ html {
     padding-inline: 1.5rem;
   }
 
+  .container2 {
+    width: 100%;
+    max-width: 1280px;
+    margin-inline: auto;
+    padding-inline: 1.5rem;
+  }
+
  .detail1 {
   position: relative;
 
@@ -125,6 +132,7 @@ html {
 
 .cardHover:hover{
   box-shadow: 0 0 5px 0px var(--color-rosa);
+  border: var(--color-rosa);
 }
 
 .animeLeft {
@@ -140,5 +148,23 @@ html {
   }
 }
 
+
+}
+
+
+@media(max-width:600px){
+  .detail1::before {
+  left: -38px;
+  width: 30px;
+  top: 0;
+
+}
+.neon {
+  width: 200px;
+  height: 220px;
+}
+.neon2 {
+    display: none;
+}
 
 }

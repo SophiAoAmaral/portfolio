@@ -11,16 +11,16 @@ export const Cards = ({ limite }) => {
     console.log(projetosExibidos);
 
   return (
-    <section className='mt-20 animeLeft' id='projetos'>
-        <div className='flex justify-between items-center my-5'>
-            <h2 className='text-5xl text-texto'>Projetos em destaque</h2>
-            <span className='text-rosa font-semibold'>Clique em um projeto para ver o case</span>
+    <section className='mt-10 md:mt-20 animeLeft' id='projetos'>
+        <div className='flex flex-wrap md:flex-none md:justify-between items-center md:my-5'>
+            <h2 className='text-3xl md:text-5xl text-texto mb-1'>Projetos em destaque</h2>
+            <span className='text-rosa font-semibold text-xs'>Clique em um projeto para ver o case</span>
         </div>
 
-        <div className='grid grid-cols-3 gap-6 mt-16'>
+        <div className='grid md:grid-cols-3 gap-6 mt-5 md:mt-16'>
             <>
                 {projetosExibidos.map((projeto)=>(
-                    <Link to={`/projeto/${projeto.id}`} className='border rounded-2xl bg-card cardHover'>
+                    <Link to={`/projeto/${projeto.id}`} key={projeto.nome} className='border rounded-2xl bg-card cardHover'>
                         <div className=' w-auto'>
                             <img src={projeto.img[0]} alt="" className='h-full w-full object-cover rounded-t-2xl' />
                         </div>

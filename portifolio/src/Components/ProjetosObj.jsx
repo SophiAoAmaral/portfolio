@@ -6,7 +6,7 @@ const projetos = [
     linguagens: ["ReactJs", "TailwindCSS", "MongoDB", "Node.Js"],
     descricao: "E-commerce Full Stack de artigos esportivos com catálogo dinâmico, carrinho e checkout, integrado a uma API REST própria e banco de dados MongoDB.",
     sobre:"A Vértice Sports é um e-commerce de artigos esportivos desenvolvido com o objetivo de construir uma aplicação completa, conectando interface, API e banco de dados.",
-    esenvolvimento: "Desenvolvi tanto o frontend quanto o backend da aplicação, trabalhando desde a construção das interfaces até a modelagem e disponibilização dos dados. No frontend, implementei catálogo e filtros de produtos, páginas individuais, seleção de tamanhos, carrinho de compras persistente e um fluxo completo de checkout.No backend, desenvolvi uma API REST utilizando Node.js e Express, conectada ao MongoDB através do Mongoose. A integração com o frontend é realizada utilizando Axios e variáveis de ambiente para configuração da API.",
+    desenvolvimento: "Desenvolvi tanto o frontend quanto o backend da aplicação, trabalhando desde a construção das interfaces até a modelagem e disponibilização dos dados. No frontend, implementei catálogo e filtros de produtos, páginas individuais, seleção de tamanhos, carrinho de compras persistente e um fluxo completo de checkout.No backend, desenvolvi uma API REST utilizando Node.js e Express, conectada ao MongoDB através do Mongoose. A integração com o frontend é realizada utilizando Axios e variáveis de ambiente para configuração da API.",
     desafio:"O principal desafio foi sair de uma aplicação exclusivamente frontend e entender como as diferentes camadas de uma aplicação se comunicam. Foi necessário estruturar os dados no MongoDB, criar uma API capaz de disponibilizá-los, realizar requisições no frontend e transformar as respostas da API em elementos da interface. Outro desafio importante foi a lógica do carrinho, principalmente no controle de quantidade, seleção de variações dos produtos, persistência dos itens no navegador e atualização dos valores durante o fluxo de compra.",
     aprendizado:"A Vértice Sports marcou meu primeiro contato prático com o desenvolvimento de um backend próprio e me ajudou a compreender melhor o funcionamento de uma aplicação Full Stack. Durante o projeto, aprofundei meus conhecimentos em criação de APIs REST com Express, modelagem de dados com Mongoose, MongoDB, requisições HTTP com Axios, variáveis de ambiente, gerenciamento de estado no React, rotas dinâmicas e persistência de dados com LocalStorage.",
     funcionalidades: ["Catálogo dinâmico", "Filtros por categoria", "Página individual de produto", "Carrinho com LocalStorage", "Cálculo de subtotal, frete e total", "Checkout com opções de pagamento",],
@@ -38,7 +38,6 @@ const projetos = [
     `${import.meta.env.BASE_URL}aurora-2.jpeg`,
     `${import.meta.env.BASE_URL}aurora-3.jpeg`,
     `${import.meta.env.BASE_URL}aurora-4.jpeg`,
-    `${import.meta.env.BASE_URL}aurora-5.jpeg`,
   ],
     projeto:'https://sophiaoamaral.github.io/aurora-cafe/'
   },
@@ -59,7 +58,7 @@ const projetos = [
     `${import.meta.env.BASE_URL}mira-2.jpeg`,
     `${import.meta.env.BASE_URL}mira-3.jpeg`,
     `${import.meta.env.BASE_URL}mira-4.jpeg`,
-    `${import.meta.env.BASE_URL}mira-5.jpeg`,
+
   ],
     projeto: 'https://sophiaoamaral.github.io/mira-arquitetura/'
   },
@@ -117,7 +116,11 @@ const projetos = [
   aprendizado: 'O projeto fortaleceu meus conhecimentos em consumo de APIs, renderização dinâmica, gerenciamento de estado, componentização e desenvolvimento de interfaces com React.',
   funcionalidades: ['Consumo de API de filmes', 'Exibição dinâmica de conteúdos', 'Interface responsiva', 'Componentização com React', 'Organização visual com Tailwind CSS'],
   github: 'https://github.com/SophiAoAmaral/Buscar-Filmes',
-  img: '',
+   img: [
+    `${import.meta.env.BASE_URL}filmes-1.jpeg`,
+    `${import.meta.env.BASE_URL}filmes-2.jpeg`,
+    `${import.meta.env.BASE_URL}filmes-3.jpeg`,
+  ],
   projeto: 'https://sophiaoamaral.github.io/Buscar-Filmes/'
 }
 ];

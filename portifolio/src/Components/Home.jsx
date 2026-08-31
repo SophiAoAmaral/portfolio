@@ -9,13 +9,13 @@ import { Contato } from './Contato';
 export const Home = () => {
   return (
     <section className="container ">
-      <div className="text-texto grid grid-cols-2 mt-20 gap-15 relative animeLeft">
+      <div className="text-texto grid md:grid-cols-2 md:mt-20 mt-5 md:gap-15 relative animeLeft">
         <div className="relative">
           <div className="neon"></div>
-          <span className="uppercase text-rosa detail-rosa ml-[25px] block font-bold text-sm mb-2">
+          <span className="uppercase text-rosa detail-rosa ml-[25px]  block font-bold text-xs md:text-sm mb-2">
             Front End - São Paulo
           </span>
-          <h1 className="text-8xl mb-2">
+          <h1 className="md:text-8xl text-5xl mb-2 text-center md:text-start">
             Crio interfaces modernas, responsivas e{" "}
             <span className="text-rosa">acessíveis.</span>
           </h1>
@@ -26,7 +26,7 @@ export const Home = () => {
             JavaScript e Tailwind CSS. Busco minha primeira oportunidade na área
             para continuar evoluindo e contribuindo com projetos reais.
           </p>
-          <div className="flex items-center gap-7 *:cursor-pointer">
+          <div className="flex items-center justify-center md:justify-start gap-7 *:cursor-pointer">
             <Link to="/projetos" className='hover:text-rosa'>Ver Projetos</Link>
             <a
               href="https://github.com/SophiAoAmaral"
@@ -37,8 +37,8 @@ export const Home = () => {
             </a>
           </div>
         </div>
-        <div className="pl-20">
-          <div className="h-[40%]"></div>
+        <div className="md:pl-20 mt-7 md:mt-0">
+          <div className="md:h-[40%]"></div>
           <div>
             <div className=" p-6 rounded-2xl border border-rosa bg-rosa/10">
               <h3 className="detail ml-4 font-semibold">
@@ -89,10 +89,10 @@ export const Home = () => {
       <Cards limite={3}/>
       <Link to='/projetos' className='text-center font-semibold text-rosa block uppercase mt-8 hover:underline'>Ver todos os projetos </Link>
 
-      <section className="grid grid-cols-2 mt-20 gap-40 animeLeft">
+      <section className="grid md:grid-cols-2 mt-10 md:mt-20 gap-5 md:gap-40 animeLeft">
         <div >
-          <h2 className="text-5xl text-texto">Stack e ferramentas</h2>
-          <p className="text-texto/70 my-2 text-lg">
+          <h2 className=" text-4xl md:text-5xl text-texto">Stack e ferramentas</h2>
+          <p className="text-texto/70 my-2 md:text-lg">
             Trabalho com HTML, CSS e JavaScript para transformar ideias em
             interfaces funcionais, organizadas e responsivas. No dia a dia, uso
             React para criar componentes reutilizáveis, organizar melhor a
@@ -152,13 +152,13 @@ export const Home = () => {
         </div>
       </section>
 
-      <section className='mt-30 animeLeft'>
+      <section className='mt-15 md:mt-30 animeLeft'>
         <h1 className='text-texto text-5xl'>Formação e trajetória</h1>
         <div className="text-texto">
           {formacao.map((item) => (
             <div
               key={item.title}
-              className="grid grid-cols-[220px_1fr] gap-x-90 items-center border-b border-texto/20 py-8"
+              className="grid md:grid-cols-[220px_1fr] gap-x-90 items-center border-b border-texto/20 py-8"
             >
               <h2 className="text-rosa">{item.title}</h2>
 
