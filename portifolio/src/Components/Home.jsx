@@ -87,7 +87,7 @@ export const Home = () => {
       </div>
 
       <Cards limite={3}/>
-      <Link to='/projetos' className='text-center font-semibold text-rosa block uppercase mt-8'>Ver todos os projetos ↗</Link>
+      <Link to='/projetos' className='text-center font-semibold text-rosa block uppercase mt-8 hover:underline'>Ver todos os projetos </Link>
 
       <section className="grid grid-cols-2 mt-20 gap-40 animeLeft">
         <div >
