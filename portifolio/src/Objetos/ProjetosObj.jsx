@@ -10,9 +10,9 @@ const projetos = [
     desafio:"O principal desafio foi sair de uma aplicação exclusivamente frontend e entender como as diferentes camadas de uma aplicação se comunicam. Foi necessário estruturar os dados no MongoDB, criar uma API capaz de disponibilizá-los, realizar requisições no frontend e transformar as respostas da API em elementos da interface. Outro desafio importante foi a lógica do carrinho, principalmente no controle de quantidade, seleção de variações dos produtos, persistência dos itens no navegador e atualização dos valores durante o fluxo de compra.",
     aprendizado:"A Vértice Sports marcou meu primeiro contato prático com o desenvolvimento de um backend próprio e me ajudou a compreender melhor o funcionamento de uma aplicação Full Stack. Durante o projeto, aprofundei meus conhecimentos em criação de APIs REST com Express, modelagem de dados com Mongoose, MongoDB, requisições HTTP com Axios, variáveis de ambiente, gerenciamento de estado no React, rotas dinâmicas e persistência de dados com LocalStorage.",
     funcionalidades: ["Catálogo dinâmico", "Filtros por categoria", "Página individual de produto", "Carrinho com LocalStorage", "Cálculo de subtotal, frete e total", "Checkout com opções de pagamento",],
-    github: "",
+    github: "https://github.com/SophiAoAmaral/Vertice",
     img:'',
-    projeto:''
+    projeto:'https://sophiaoamaral.github.io/Vertice/'
     
   },
   {
@@ -26,9 +26,9 @@ const projetos = [
     desafio:"O principal desafio foi trabalhar diferentes comportamentos dinâmicos na mesma aplicação, controlando filtros, menu mobile, formulário, carrossel e modal de confirmação através dos estados do React.",
     aprendizado:"O projeto aprofundou meus conhecimentos em componentização, useState, useEffect, React Router, gerenciamento de estado, renderização dinâmica e desenvolvimento responsivo com Mobile First.",
     funcionalidades: ["Header e menu responsivos", "Carrossel animado", "Cardápio com filtros dinâmicos", "Galeria do ambiente", "Reserva de mesas", "Seleção de data e horário" , "Formulário interativo", "Modal de confirmação",],
-    github: "",
+    github: "https://github.com/SophiAoAmaral/aurora-cafe",
     img:'',
-    projeto:''
+    projeto:'https://sophiaoamaral.github.io/aurora-cafe/'
   },
   {
     id: "mira",
@@ -43,7 +43,7 @@ const projetos = [
     funcionalidades: ["Animações durante o scroll", "Galeria de projetos", "Carrossel de premiações", "Formulário com validação", "Navegação suave entre seções", "Layout responsivo",],
     github: "https://github.com/SophiAoAmaral/mira-arquitetura",
     img:'',
-    projeto: ''
+    projeto: 'https://sophiaoamaral.github.io/mira-arquitetura/'
   },
 
   {
@@ -57,9 +57,9 @@ const projetos = [
     desafio:"O principal desafio foi construir uma experiência visual consistente em diferentes dispositivos, organizando os componentes e adaptando o conteúdo sem perder a identidade do projeto.",
     aprendizado:"O projeto aprofundou meus conhecimentos em componentização, React Router, gerenciamento de estado, formulários, responsividade e desenvolvimento de interfaces com Tailwind CSS.",
     funcionalidades: ["Navegação SPA", "Formulário com validação", "Apresentação de ingredientes", "Seção de benefícios", "Componentes reutilizáveis", "Layout responsivo", "Animações e transições",],
-    github:'',
+    github:'https://github.com/SophiAoAmaral/plump',
     img:'',
-    projeto:''
+    projeto:'sophiaoamaral.github.io/plump/'
   },
 
   {
@@ -74,7 +74,7 @@ const projetos = [
   aprendizado:'O projeto fortaleceu meus conhecimentos em React, componentização, reutilização de código, organização de componentes, responsividade e criação de interfaces interativas.',
   funcionalidades: ['Interface responsiva', 'Componentes reutilizáveis', 'Animações e transições','Navegação entre seções','Apresentação do cardápio', 'Layout adaptado para diferentes dispositivos'],
   github: 'https://github.com/SophiAoAmaral/Nagomi',
-  projeto:'',
+  projeto:'https://sophiaoamaral.github.io/Nagomi/',
   img: ''
 },
 {

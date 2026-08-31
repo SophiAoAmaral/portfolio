@@ -2,8 +2,9 @@ import React from 'react'
 import { FaGithub } from "react-icons/fa";
 import { Cards } from './Cards';
 import {Link} from 'react-router'
-import { frontEnd, backEnd, design, ferramentas } from './Linguagens';
-import { formacao } from './Formacoes';
+import { frontEnd, backEnd, design, ferramentas } from '../Objetos/Linguagens';
+import { formacao } from '../Objetos/Formacoes';
+import { Contato } from './Contato';
 
 export const Home = () => {
   return (
@@ -26,7 +27,7 @@ export const Home = () => {
             para continuar evoluindo e contribuindo com projetos reais.
           </p>
           <div className="flex items-center gap-7 *:cursor-pointer">
-            <Link to="/projetos">Ver Projetos</Link>
+            <Link to="/projetos" className='hover:text-rosa'>Ver Projetos</Link>
             <a
               href="https://github.com/SophiAoAmaral"
               target="_blank"
@@ -85,12 +86,13 @@ export const Home = () => {
         </div>
       </div>
 
-      <Cards/>
+      <Cards limite={3}/>
+      <Link to='/projetos' className='text-center font-semibold text-rosa block uppercase mt-8'>Ver todos os projetos ↗</Link>
 
       <section className="grid grid-cols-2 mt-20 gap-40 animeLeft">
-        <div>
+        <div >
           <h2 className="text-5xl text-texto">Stack e ferramentas</h2>
-          <p className="text-texto/40 my-2 text-lg">
+          <p className="text-texto/70 my-2 text-lg">
             Trabalho com HTML, CSS e JavaScript para transformar ideias em
             interfaces funcionais, organizadas e responsivas. No dia a dia, uso
             React para criar componentes reutilizáveis, organizar melhor a
@@ -99,7 +101,7 @@ export const Home = () => {
             me ajuda a entender melhor a comunicação com APIs, trabalhar com
             dados e enxergar o projeto além do front-end.
           </p>
-          <p className="text-texto/40 my-2 text-lg ">
+          <p className="text-texto/70 my-2 text-lg ">
             Antes de começar a codar, gosto de organizar a ideia visualmente.
             Uso o Figma para criar wireframes e protótipos, testar a disposição
             dos elementos e pensar no fluxo que o usuário vai seguir dentro da
@@ -112,8 +114,9 @@ export const Home = () => {
         </div>
         <div>
           <div className="mb-7">
+            <div className='neon2'></div>
             <h3 className="uppercase text-texto/80 font-bold">Front-end</h3>
-            <ul className="flex mt-4 gap-3 items-start flex-wrap **:text-texto/50 **:border **:px-4 **:rounded-2xl **:py-2 **:hover:text-rosa">
+            <ul className="flex mt-4 gap-3 items-start flex-wrap **:text-texto/70 **:border **:px-4 **:rounded-2xl **:py-2 **:hover:text-rosa">
               {frontEnd.map((i) => (
                 <li>{i}</li>
               ))}
@@ -122,7 +125,7 @@ export const Home = () => {
 
           <div className="mb-7">
             <h3 className="uppercase text-texto/80 font-bold">Back-End</h3>
-            <ul className="flex mt-4 gap-3 items-start flex-wrap **:text-texto/50 **:border **:px-4 **:rounded-2xl **:py-2 **:hover:text-rosa">
+            <ul className="flex mt-4 gap-3 items-start flex-wrap **:text-texto/70 **:border **:px-4 **:rounded-2xl **:py-2 **:hover:text-rosa">
               {backEnd.map((i) => (
                 <li>{i}</li>
               ))}
@@ -131,7 +134,7 @@ export const Home = () => {
 
           <div className="mb-7">
             <h3 className="uppercase text-texto/80 font-bold">Desing</h3>
-            <ul className="flex mt-4 gap-3 items-start flex-wrap **:text-texto/50 **:border **:px-4 **:rounded-2xl **:py-2 **:hover:text-rosa">
+            <ul className="flex mt-4 gap-3 items-start flex-wrap **:text-texto/70 **:border **:px-4 **:rounded-2xl **:py-2 **:hover:text-rosa">
               {design.map((i) => (
                 <li>{i}</li>
               ))}
@@ -140,7 +143,7 @@ export const Home = () => {
 
           <div className="mb-3">
             <h3 className="uppercase text-texto/80 font-bold">Ferramentas</h3>
-            <ul className="flex mt-4 gap-3 items-start flex-wrap **:text-texto/50 **:border **:px-4 **:rounded-2xl **:py-2 **:hover:text-rosa">
+            <ul className="flex mt-4 gap-3 items-start flex-wrap **:text-texto/70 **:border **:px-4 **:rounded-2xl **:py-2 **:hover:text-rosa">
               {ferramentas.map((i) => (
                 <li>{i}</li>
               ))}
@@ -167,6 +170,8 @@ export const Home = () => {
           ))}
         </div>
       </section>
+
+      <Contato/>
     </section>
   );
 }

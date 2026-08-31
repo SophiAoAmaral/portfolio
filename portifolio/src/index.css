@@ -18,6 +18,10 @@ body{
   background: var(--color-fundo);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 @layer components {
 
 
@@ -84,6 +88,20 @@ body{
   border-radius: 50%;
   z-index: -1;
 }
+.neon2 {
+  position: absolute;
+
+  top: 10%;
+  left: 15%;
+
+  width: 900px;
+  height: 600px;
+  background: rgba(224, 112, 159, 0.587);
+  filter: blur(300px);
+  border-radius: 50%;
+  z-index: -1;
+}
+
 .cardHover:hover{
   box-shadow: 0 0 5px 0px var(--color-rosa);
 }

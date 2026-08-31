@@ -1,6 +1,7 @@
 import React from 'react'
 import { useParams } from 'react-router';
-import projetos from './Projetos'
+import projetos from '../Objetos/ProjetosObj'
+import { Contato } from '../Components/Contato';
 
 export const Projeto = () => {
     const { id } = useParams();
@@ -10,6 +11,10 @@ export const Projeto = () => {
   );
   console.log(projeto);
   return (
-    <h1 className='text-6xl'>{projeto.nome}</h1>
+    <div className='container'>
+      <h1 className='text-6xl'>{projeto.nome}</h1>
+
+      <Contato/>
+    </div>
   )
 }
