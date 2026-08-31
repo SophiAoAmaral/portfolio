@@ -11,7 +11,13 @@ const projetos = [
     aprendizado:"A Vértice Sports marcou meu primeiro contato prático com o desenvolvimento de um backend próprio e me ajudou a compreender melhor o funcionamento de uma aplicação Full Stack. Durante o projeto, aprofundei meus conhecimentos em criação de APIs REST com Express, modelagem de dados com Mongoose, MongoDB, requisições HTTP com Axios, variáveis de ambiente, gerenciamento de estado no React, rotas dinâmicas e persistência de dados com LocalStorage.",
     funcionalidades: ["Catálogo dinâmico", "Filtros por categoria", "Página individual de produto", "Carrinho com LocalStorage", "Cálculo de subtotal, frete e total", "Checkout com opções de pagamento",],
     github: "https://github.com/SophiAoAmaral/Vertice",
-    img:'',
+    img: [
+  `${import.meta.env.BASE_URL}vertice-1.jpeg`,
+  `${import.meta.env.BASE_URL}vertice-2.jpeg`,
+  `${import.meta.env.BASE_URL}vertice-3.jpeg`,
+  `${import.meta.env.BASE_URL}vertice-4.jpeg`,
+  `${import.meta.env.BASE_URL}vertice-5.jpeg`,
+],
     projeto:'https://sophiaoamaral.github.io/Vertice/'
     
   },
@@ -27,7 +33,13 @@ const projetos = [
     aprendizado:"O projeto aprofundou meus conhecimentos em componentização, useState, useEffect, React Router, gerenciamento de estado, renderização dinâmica e desenvolvimento responsivo com Mobile First.",
     funcionalidades: ["Header e menu responsivos", "Carrossel animado", "Cardápio com filtros dinâmicos", "Galeria do ambiente", "Reserva de mesas", "Seleção de data e horário" , "Formulário interativo", "Modal de confirmação",],
     github: "https://github.com/SophiAoAmaral/aurora-cafe",
-    img:'',
+    img: [
+    `${import.meta.env.BASE_URL}aurora-1.jpeg`,
+    `${import.meta.env.BASE_URL}aurora-2.jpeg`,
+    `${import.meta.env.BASE_URL}aurora-3.jpeg`,
+    `${import.meta.env.BASE_URL}aurora-4.jpeg`,
+    `${import.meta.env.BASE_URL}aurora-5.jpeg`,
+  ],
     projeto:'https://sophiaoamaral.github.io/aurora-cafe/'
   },
   {
@@ -42,7 +54,13 @@ const projetos = [
     aprendizado:"O projeto fortaleceu meus fundamentos em JavaScript, manipulação do DOM, Intersection Observer, validação de formulários, CSS Grid, Flexbox e construção de interfaces responsivas.",
     funcionalidades: ["Animações durante o scroll", "Galeria de projetos", "Carrossel de premiações", "Formulário com validação", "Navegação suave entre seções", "Layout responsivo",],
     github: "https://github.com/SophiAoAmaral/mira-arquitetura",
-    img:'',
+     img: [
+    `${import.meta.env.BASE_URL}mira-1.jpeg`,
+    `${import.meta.env.BASE_URL}mira-2.jpeg`,
+    `${import.meta.env.BASE_URL}mira-3.jpeg`,
+    `${import.meta.env.BASE_URL}mira-4.jpeg`,
+    `${import.meta.env.BASE_URL}mira-5.jpeg`,
+  ],
     projeto: 'https://sophiaoamaral.github.io/mira-arquitetura/'
   },
 
@@ -58,7 +76,12 @@ const projetos = [
     aprendizado:"O projeto aprofundou meus conhecimentos em componentização, React Router, gerenciamento de estado, formulários, responsividade e desenvolvimento de interfaces com Tailwind CSS.",
     funcionalidades: ["Navegação SPA", "Formulário com validação", "Apresentação de ingredientes", "Seção de benefícios", "Componentes reutilizáveis", "Layout responsivo", "Animações e transições",],
     github:'https://github.com/SophiAoAmaral/plump',
-    img:'',
+    img: [
+    `${import.meta.env.BASE_URL}plump-1.jpeg`,
+    `${import.meta.env.BASE_URL}plump-2.jpeg`,
+    `${import.meta.env.BASE_URL}plump-3.jpeg`,
+    `${import.meta.env.BASE_URL}plump-4.jpeg`,
+  ],
     projeto:'sophiaoamaral.github.io/plump/'
   },
 
@@ -75,7 +98,12 @@ const projetos = [
   funcionalidades: ['Interface responsiva', 'Componentes reutilizáveis', 'Animações e transições','Navegação entre seções','Apresentação do cardápio', 'Layout adaptado para diferentes dispositivos'],
   github: 'https://github.com/SophiAoAmaral/Nagomi',
   projeto:'https://sophiaoamaral.github.io/Nagomi/',
-  img: ''
+  img: [
+    `${import.meta.env.BASE_URL}nagomi-1.jpeg`,
+    `${import.meta.env.BASE_URL}nagomi-2.jpeg`,
+    `${import.meta.env.BASE_URL}nagomi-3.jpeg`,
+    `${import.meta.env.BASE_URL}nagomi-4.jpeg`,
+  ],
 },
 {
   id: 'filmes',

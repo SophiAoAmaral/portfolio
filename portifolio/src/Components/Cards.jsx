@@ -1,10 +1,15 @@
 import React from 'react'
-import projetos from '../Objetos/ProjetosObj'
+import projetos from './ProjetosObj'
 import {Link} from 'react-router'
 export const Cards = ({ limite }) => {
   const projetosExibidos = limite
     ? projetos.slice(0, limite)
-    : projetos
+    : projetos;
+
+
+    
+    console.log(projetosExibidos);
+
   return (
     <section className='mt-20 animeLeft' id='projetos'>
         <div className='flex justify-between items-center my-5'>
@@ -16,10 +21,10 @@ export const Cards = ({ limite }) => {
             <>
                 {projetosExibidos.map((projeto)=>(
                     <Link to={`/projeto/${projeto.id}`} className='border rounded-2xl bg-card cardHover'>
-                        <div className='h-60'>
-                            <img src="" alt="" />
+                        <div className=' w-auto'>
+                            <img src={projeto.img[0]} alt="" className='h-full w-full object-cover rounded-t-2xl' />
                         </div>
-                        <div className='px-5'>
+                        <div className='px-5 mt-6'>
                             <span className='text-rosa uppercase text-sm font-bold'>{projeto.tipo}</span>
                             <h2 className='text-3xl text-texto mt-3'>{projeto.nome}</h2>
                             <p className='text-texto/50 py-2 '>{projeto.descricao}</p>
