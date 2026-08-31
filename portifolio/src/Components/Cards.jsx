@@ -3,7 +3,7 @@ import projetos from './Projetos'
 import {Link} from 'react-router'
 export const Cards = () => {
   return (
-    <section className='mt-30' id='projetos'>
+    <section className='mt-30 animeLeft' id='projetos'>
         <div className='flex justify-between items-center my-5'>
             <h2 className='text-5xl text-texto'>Projetos em destaque</h2>
             <span className='text-texto/30'>Clique em um projeto para ver o case</span>

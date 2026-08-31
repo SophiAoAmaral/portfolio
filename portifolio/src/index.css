@@ -7,6 +7,8 @@
 --color-rosa-claro: #f195bc;
 --color-texto:#f1e9ee;
 --color-card:#1E1623;
+
+
 }
 
 body{
@@ -85,4 +87,19 @@ body{
 .cardHover:hover{
   box-shadow: 0 0 5px 0px var(--color-rosa);
 }
+
+.animeLeft {
+  opacity: 0;
+  transform: translateX(-20px);
+  animation: animeLeft .3s forwards;
+}
+
+@keyframes animeLeft {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+
 }
