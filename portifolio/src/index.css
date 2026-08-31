@@ -32,6 +32,28 @@ html {
     padding-inline: 1.5rem;
   }
 
+ .detail1 {
+  position: relative;
+
+  }
+
+.detail1::before {
+  content: '';
+  position: absolute;
+  top: 5%;
+  left: -40px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-image: url('/favicon.ico');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0 0 7px 0px var(--color-rosa);
+}
+
+
+
  .detail {
   position: relative;
 
@@ -40,15 +62,14 @@ html {
 .detail::before {
   content: '';
   position: absolute;
-  top: 30%;
+  top: 27%;
   left: -15px;
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background: var(--color-rosa);
+  background-color: var(--color-rosa);
   box-shadow: 0 0 7px 0px var(--color-rosa);
 }
-
 .bols{
   position: relative;
 }
