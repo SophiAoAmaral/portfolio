@@ -1,5 +1,5 @@
 import React from 'react'
-import { useParams } from 'react-router';
+import { useParams, Link } from 'react-router';
 import projetos from '../Objetos/ProjetosObj'
 import { Contato } from '../Components/Contato';
 
@@ -12,6 +12,8 @@ export const Projeto = () => {
   console.log(projeto);
   return (
     <div className='container'>
+      
+        <Link to='/' className='text-rosa block mt-10 hover:underline'>← Voltar</Link>
       <h1 className='text-6xl'>{projeto.nome}</h1>
 
       <Contato/>

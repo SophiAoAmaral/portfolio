@@ -6,7 +6,7 @@ export const Cards = ({ limite }) => {
     ? projetos.slice(0, limite)
     : projetos
   return (
-    <section className='mt-30 animeLeft' id='projetos'>
+    <section className='mt-20 animeLeft' id='projetos'>
         <div className='flex justify-between items-center my-5'>
             <h2 className='text-5xl text-texto'>Projetos em destaque</h2>
             <span className='text-rosa font-semibold'>Clique em um projeto para ver o case</span>
