@@ -2,6 +2,7 @@ import React from 'react'
 import { FaGithub } from "react-icons/fa";
 import { Cards } from './Cards';
 import {Link} from 'react-router'
+import { frontEnd, backEnd, design, ferramentas } from './Linguagens';
 
 export const Home = () => {
   return (
@@ -49,6 +50,59 @@ export const Home = () => {
 
             
                 <Cards/>
+
+                <section className='grid grid-cols-2 mt-20 gap-40'>
+                    <div>
+                        <h2 className='text-5xl text-texto'>Stack e ferramentas</h2>
+                        <p className='text-texto/40 my-2 text-lg'>Trabalho com HTML, CSS e JavaScript para transformar ideias em interfaces funcionais, organizadas e responsivas. No dia a dia, uso React para criar componentes reutilizáveis, organizar melhor a aplicação e construir experiências que funcionem bem em diferentes tamanhos de tela. Também tenho conhecimento de Node.js e SQL, o que me ajuda a entender melhor a comunicação com APIs, trabalhar com dados e enxergar o projeto além do front-end.</p>
+                        <p className='text-texto/40 my-2 text-lg '>Antes de começar a codar, gosto de organizar a ideia visualmente. Uso o Figma para criar wireframes e protótipos, testar a disposição dos elementos e pensar no fluxo que o usuário vai seguir dentro da aplicação. Procuro tomar decisões de layout considerando usabilidade, clareza e facilidade de navegação, e não apenas a aparência da interface. Meu objetivo é criar páginas bonitas, mas principalmente simples de entender, responsivas e agradáveis de usar.</p>
+                    </div>
+                    <div>
+                        <div className='mb-7'>
+                            <h3 className='uppercase text-texto/80 font-bold'>Front-end</h3>
+                            <ul className='flex mt-4 gap-3 items-start flex-wrap **:text-texto/50 **:border **:px-4 **:rounded-2xl **:py-2 **:hover:text-rosa'>
+                                {frontEnd.map((i)=>(
+                                
+                                        <li>{i}</li>
+                                
+                                ))}
+                            </ul>
+                        </div>
+
+                        <div className='mb-7'>
+                            <h3 className='uppercase text-texto/80 font-bold'>Back-End</h3>
+                            <ul className='flex mt-4 gap-3 items-start flex-wrap **:text-texto/50 **:border **:px-4 **:rounded-2xl **:py-2 **:hover:text-rosa'>
+                                {backEnd.map((i)=>(
+                                
+                                        <li>{i}</li>
+                                
+                                ))}
+                            </ul>
+                        </div>
+
+                        <div className='mb-7'>
+                            <h3 className='uppercase text-texto/80 font-bold'>Desing</h3>
+                            <ul className='flex mt-4 gap-3 items-start flex-wrap **:text-texto/50 **:border **:px-4 **:rounded-2xl **:py-2 **:hover:text-rosa'>
+                                {design.map((i)=>(
+                                
+                                        <li>{i}</li>
+                                
+                                ))}
+                            </ul>
+                        </div>
+
+                        <div className='mb-3'>
+                            <h3 className='uppercase text-texto/80 font-bold'>Ferramentas</h3>
+                            <ul className='flex mt-4 gap-3 items-start flex-wrap **:text-texto/50 **:border **:px-4 **:rounded-2xl **:py-2 **:hover:text-rosa'>
+                                {ferramentas.map((i)=>(
+                                
+                                        <li>{i}</li>
+                                
+                                ))}
+                            </ul>
+                        </div>
+                    </div>
+                </section>
             
         </section>
   )
