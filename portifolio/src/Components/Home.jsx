@@ -84,24 +84,23 @@ useEffect(() => {
                   <span className="text-texto/75">
                     stack:{" "}
                     <span className="text-rosa-claro">
-                      ["React", "Tailwind", "JS"]
+                      ["React", "Tailwind", "JS"],
                     </span>
-                    ,
                   </span>
                   <span className="text-texto/75">
                     <span>design:</span>
-                    <span className="text-rosa-claro">"Figma + Adobe XD",</span>
+                    <span className="text-rosa-claro"> ["Figma + Adobe XD"],</span>
                   </span>
                   <span className="text-texto/75">
                     <span>vaga:</span>{" "}
                     <span className="text-rosa-claro">
-                      "front-end full-time"
+                      ["front-end full-time"],
                     </span>
                   </span>
                   <span className="text-texto/75">
                     <span>skills:</span>{" "}
                     <span className="text-rosa-claro">
-                      ["Responsive Design", "UI/UX", "APIs REST"]
+                      ["Responsive Design", "UI/UX", "APIs REST"],
                     </span>
                   </span>
                 </div>
