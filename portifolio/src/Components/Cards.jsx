@@ -7,9 +7,6 @@ export const Cards = ({ limite }) => {
     : projetos;
 
 
-    
-    console.log(projetosExibidos);
-
   return (
     <section className='mt-10 md:mt-20 animeLeft' id='projetos'>
         <div className='flex flex-wrap md:flex-none md:justify-between items-center md:my-5'>
@@ -20,7 +17,7 @@ export const Cards = ({ limite }) => {
         <div className='grid md:grid-cols-3 gap-6 mt-5 md:mt-16'>
             <>
                 {projetosExibidos.map((projeto)=>(
-                    <Link to={`/projeto/${projeto.id}`} key={projeto.nome} className='border rounded-2xl bg-card cardHover'>
+                    <Link to={`/projeto/${projeto.id}`} key={projeto.nome} className='border rounded-2xl bg-card cardHover img__box'>
                         <div className=' w-auto'>
                             <img src={projeto.img[0]} alt="" className='h-full w-full object-cover rounded-t-2xl' />
                         </div>

@@ -149,6 +149,54 @@ html {
 }
 
 
+.img__box{
+    overflow: hidden;
+}
+.img__box {
+     transition: transform 0.5s;
+}
+
+.img__box:hover {
+    transform: scale(1.08);
+}
+
+.flores-container {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.flor {
+  position: absolute;
+  top: -30px;
+
+  font-size: 14px;
+
+  animation-name: cair;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+  opacity: 0.8;
+}
+
+@keyframes cair {
+  0% {
+    transform: translateY(-30px) rotate(0deg);
+    opacity: 0;
+  }
+
+  10% {
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(400px) rotate(360deg);
+    opacity: 0;
+  }
+}
+
 }
 
 
