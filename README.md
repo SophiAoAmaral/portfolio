@@ -6,7 +6,7 @@ Esta é uma nova versão do meu portfólio, criada com uma identidade visual mai
 
 ## Preview
 
-![Preview do Portfólio](./src/assets/preview.jpeg)
+![Preview do Portfólio](./src/Components/assets/preview.jpeg)
 
 ## Sobre o projeto
 
