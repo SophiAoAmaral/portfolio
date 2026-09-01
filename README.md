@@ -6,7 +6,7 @@ Esta é uma nova versão do meu portfólio, criada com uma identidade visual mai
 
 ## Preview
 
-![Preview do Portfólio](https://github.com/SophiAoAmaral/portfolio/raw/main/portfolio/src/Components/assets/preview.jpeg)
+![Preview do Portfólio](./portifolio/src/Components/assets/preview.jpeg)
 
 ## Sobre o projeto
 
