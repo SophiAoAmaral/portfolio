@@ -1,5 +1,25 @@
 const projetos = [
   {
+  id: 'fucinhos',
+  nome: 'Fucinhos',
+  tipo: 'Front End',
+  linguagens: ['ReactJs', 'Tailwind CSS', 'JavaScript'],
+  descricao:'Aplicação web voltada para a apresentação de planos e benefícios de convênio para pets, desenvolvida com React e Tailwind CSS, com uma interface moderna e responsiva',
+  sobre: 'O Fucinhos é uma aplicação criada para apresentar serviços e opções de convênio para pets de forma simples e organizada, permitindo que o usuário conheça os benefícios disponíveis e encontre uma opção adequada para cuidar do seu animal',
+  desenvolvimento: 'Desenvolvi a interface utilizando React e Tailwind CSS, estruturando as informações sobre planos, serviços e benefícios em componentes reutilizáveis e criando uma experiência responsiva para diferentes dispositivos.',
+  desafio: 'O principal desafio foi organizar as informações dos planos e benefícios de forma clara e intuitiva, facilitando a comparação e a compreensão dos serviços oferecidos sem deixar a interface visualmente carregada',
+  aprendizado:'O projeto fortaleceu meus conhecimentos em React, componentização, responsividade, organização de informações, estilização com Tailwind CSS e desenvolvimento de interfaces voltadas para experiência do usuário.',
+  funcionalidades: ['Apresentação de planos para pets', 'Exibição de benefícios e serviços', 'Organização das informações de forma intuitivaa', 'Interface responsiva', 'Componentização com React'],
+  github: 'https://sophiaoamaral.github.io/Fucinhos/',
+   img: [
+    `${import.meta.env.BASE_URL}fucinhos-1.png`,
+    `${import.meta.env.BASE_URL}fucinhos-2.png`,
+    `${import.meta.env.BASE_URL}fucinhos-3.png`,
+    `${import.meta.env.BASE_URL}fucinhos-4.png`,
+  ],
+  projeto: 'https://github.com/SophiAoAmaral/Fucinhos'
+},
+  {
     id: "vertice",
     nome: "Vértice Sports",
     tipo: 'Full Stack',
@@ -122,7 +142,8 @@ const projetos = [
     `${import.meta.env.BASE_URL}filmes-3.jpeg`,
   ],
   projeto: 'https://sophiaoamaral.github.io/Buscar-Filmes/'
-}
+},
+
 ];
 
 export default projetos
